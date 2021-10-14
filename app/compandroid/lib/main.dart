@@ -41,7 +41,6 @@ class MyHomePage extends StatefulWidget {
 
   final String title;
 
-
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
@@ -80,6 +79,7 @@ class _FormState extends State<AppForm> {
 
   @override
   void dispose() {
+    // Dispose
     formController.dispose();
     super.dispose();
   }
